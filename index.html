@@ -274,8 +274,10 @@ footer{background:#080605;padding:36px 60px;display:flex;justify-content:space-b
   <span class="lbl rv">Vamos falar</span>
   <h2 class="stl rv">Pronta para o teu <em>momento?</em></h2>
   <p class="rv" style="color:rgba(245,239,230,.6);font-size:15px;line-height:1.8;max-width:460px;margin:0 auto 44px">Preenche o formulário e entro em contacto em 24 horas.</p>
-  <form action="https://formspree.io/f/sofiacordei@gmail.com" method="POST" style="max-width:500px;margin:0 auto;display:grid;gap:14px;text-align:left" class="rv">
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px">
+  <form action="https://api.web3forms.com/submit" method="POST" style="max-width:500px;margin:0 auto;display:grid;gap:14px;text-align:left" class="rv">
+    <input type="hidden" name="access_key" value="64fd10e3-80e9-4281-b738-b7ba84fdb1dc">
+<input type="hidden" name="subject" value="Nova marcação — Volta a Ti">
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:14px">
       <input type="text" placeholder="O teu nome" name="nome" required class="finput">
       <input type="email" placeholder="O teu email" name="email" required class="finput">
     </div>
